@@ -1,0 +1,462 @@
+/*-------------------------------header------------------------------ */
+header {
+    display: block;
+    height: var(--header-height);
+    background: dimgrey;
+    position: fixed;
+    z-index: 7;
+    right: 0;
+    left: 0;
+}
+.tab_mobile {
+    display: none;
+}
+.nav {
+    --wrapper-height: 50px;
+    height: var(--wrapper-height);
+    background-color: #0f990a;;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+.dat_hang_mobile {
+    display: none;
+}
+.nav-logo {
+    width: 5%;
+    height: var(--wrapper-height);
+    display: flex;
+    cursor: pointer;
+    margin-left: 35px;
+}
+.nav-logo img {
+    width: 100%;
+}
+.ngan_cach {
+    height: 40%;
+    margin-left: 24px;
+    border-left: 1px solid #686f7a;
+}
+.ten_khoa_hoc {
+    font-size: 1.6rem;
+    color: var(--white-color);
+    margin-left: 24px;
+    overflow: hidden;
+    word-wrap: break-word;
+    line-height: 1.6;
+    height: 2.4rem;
+    display: block;
+    width: 186px;
+}
+.nav-list {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin-right: 25px;
+}
+.header_list {
+    display: none;
+}
+.nav-item {
+    float: right;
+    color: var(--white-color);
+    list-style: none;
+    margin: 20px 10px;
+    font-size: 1.6rem;
+}.nav-item a {
+    text-decoration: none;
+    float: right;
+    color: var(--white-color);
+    list-style: none;
+    font-size: 1.6rem;
+}
+/* list hướng dẫn  */
+.tab_huong_dan {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background: rgb(189, 189, 189);
+    display: none;
+}
+.open_tab_huong_dan {
+    display: block;
+    animation: fadeIn 1s;
+}
+.close_huong_dan {
+    font-size: 3rem;
+    display: block;
+    color: #5a5656;
+    float: right;
+    margin: 5px 12px;
+    cursor: pointer;
+}
+.list_huong_dan {
+    background: var(--white-color);
+    width: 41%;
+    height: 240px;
+    margin: 120px 29% 0;
+    overflow: auto;
+}
+.list_lo_trinh {
+    margin-top: 205px;
+}
+.list_uu_dai {
+    height: 300px;
+    margin-top: 205px;
+}
+.list_dat_hang {
+    height: 550px;
+    text-align: center;
+}
+.nav-item:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+.question {
+    margin-left: 5px;
+    opacity: 0.8;
+}
+.tieu_de_noi_dung {
+    display: block;
+    margin: 10px;
+    font-style: inherit;
+    font-size: 2.2rem;
+    color: rgb(6, 6, 129);
+    font-weight: bolder;
+}
+.chi_tiet_noi_dung {
+    display: block;
+    margin: 10px;
+    font-style: italic;
+    font-size: 2.2rem;
+    line-height: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.noi_dung_huong_dan {
+    margin-left: 28px;
+    margin-bottom: 10px;
+}
+.list_huong_dan img {
+    width: 41%;
+    margin: 0 10%;
+}
+/*------------------------------content-------------------------------- */
+.content {
+    display: flex;
+    width: 100%;
+    height: 91%;
+    position: absolute;
+    margin-top: 50px;
+    animation: fadeIn 2s;
+}
+/*--------------------- lý thuyết--------------------  */
+.ly_thuyet {
+    width: 30%;
+}
+.tieu_de {
+    font-size: 30px;
+    margin: 20px;
+    font-style: italic;
+}
+.noi_dung {
+    width: 100%;
+    height: 83%;
+    overflow: auto;
+}
+.home-product-item__price {
+    display: flex;
+    align-items: baseline; /*chân chữ = nhau*/
+    flex-wrap: wrap;
+}
+.home-product-item__price-old {
+    margin-left: 10px;
+    font-size: 1.3rem;
+    color: #666;
+    text-decoration: line-through; /*gạch ngang chữ*/
+}
+.home-product-item__price-new {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    margin-left: 10px;
+}
+.luu_y {
+    font-size: 1.8rem;
+    font-style: italic;
+    color: crimson;
+    font-weight: 600;
+}
+.cu_phap {
+    font-size: 1.8rem;
+    color: rgb(25, 25, 201);
+    font-weight: revert;
+    font-style: italic;
+    margin-left: 0;
+}
+.code {
+    background: #132a5e;
+    margin-bottom: 10px;
+}
+.noi_dung_code {
+    font-size: 14px;
+    background-color: #032483;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: left;
+    display: flex;
+    overflow: auto;
+    height: 100%;
+}
+/*----------------------hướng dẫn---------------------*/
+.huong_dan {
+    width: 70%;
+    position: relative;
+}
+.video {
+    width: 100%;
+}
+.tai_lieu_tham_khao {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+}
+.bai_tap {
+    width: 170px;
+    font-size: 1.8rem;
+    height: 30px;
+    box-shadow: 0 5px 10px 0 rgb(178 178 178 / 50%);
+    margin-top: 5px;
+}
+
+.bai_tap span {
+    padding: 6px;
+    display: block;
+    margin: 0 14px;
+    color: rgb(17, 17, 192);
+    font-style: italic;
+    font-weight: 800;
+}
+.list_bai_tap {
+    list-style: none;
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 26%;
+    margin-top: 5px;
+}
+.cac_bai_tap {
+    color: var(--text-color) !important;
+}
+.cac_bai_tap p {
+    line-height: 1.9rem;
+}
+/*---------------------list khóa học--------------------  */
+.list_khoa_hoc {
+    width: 30%;
+    animation: fadeIn 1.5s;
+}
+/* header of list khóa học */
+.Playlist_header {
+    background: rgb(60 153 248);
+    height: 60px;
+    z-index: 1;
+    display: flex;
+    color: var(--white-color);
+}
+.khoa_hoc--tien_do {
+    list-style: none;
+    padding: 12px;
+    width: 80%;
+}
+.khoa_hoc {
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 800;
+    color: var(--white-color);
+}
+.tien_do {
+    font-size: 1.2rem;
+}
+.btn_an_tab {
+    width: 20%;
+}
+button {
+    background: rgb(60 153 248);
+    border: none;
+}
+.btn_thu_gon {
+    font-size: 3rem;
+    padding: 16px;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.btn_hien_tab {
+    display: none;
+    z-index: 2;
+    position:absolute;
+    width: 100%;
+    background: none;
+    cursor: pointer;
+    animation: fadeIn 1s;
+}
+.btn_hien_ra:hover { 
+    opacity: 1;
+}
+.open_btn_hien {
+    display: block;
+}
+.btn_hien_ra {
+    float: right;
+    font-size: 3rem;
+    padding: 16px;
+    color: var(--black-color);
+    opacity: 0.5;
+
+}
+
+.close {
+    animation: fadeOut 1s;
+    display: none;
+    width: 0;
+    
+}
+.content_ly_thuyet_thu_gon {
+    width: 45%;
+}
+.content_huong_dan_thu_gon {
+    width: 70%;
+    margin: 0 14%;
+}
+.content_bai_hoc_thu_gon {
+    width: 10%;
+}
+/* list các bài học */
+.group_bai_hoc {
+    height: 82%;
+    overflow: auto;
+}
+.groupTitle {
+    height: 55px;
+    background-color: #f7f8fa;
+    display: flex;
+}
+.content_groupTitle {
+    list-style: none;
+    padding: 5px 12px;
+    width: 80%;
+    margin: 10px;
+}
+.chia_phan {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.so_bai_hoc {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+.groupTitle span {
+    width: 20%;
+}
+
+.btn_thu_gon_len {
+    font-size: 3rem;
+    color: rgb(167 162 162);
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    padding-left: 26px;
+    display: none;
+}
+/* từng nội dung của các phần học  */
+.content-item {
+    height: 50px;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: inherit;
+    font-weight: 100;
+    cursor: pointer;
+    text-decoration: none;
+}
+.content-item_click {
+    background: rgba(0,0,0,.05);
+    cursor: default;
+}
+.content-item:hover {
+    background: rgba(0,0,0,.05);
+}
+.noi_dung_kien_thuc {
+    display: block;
+    font-size: 1.7rem;
+    font-style: italic;
+    margin-left: 21px;
+    color: #00000094;
+    padding-top: 10px;
+}
+.thoi_luong_video {
+    margin-left: 21px;
+    padding: 3px 0;
+    display: block;
+    font-size: 1.2rem;
+    color: #00000094;
+}
+.thoi_luong_video i {
+    color: rgb(167 162 162);
+}
+
+/* footer */
+footer {
+    position: fixed;
+    display: flex;
+    background-color: #fafafa;
+    padding: 10px 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    margin-bottom: 0;
+    justify-content: center;
+}
+.thong_tin_ca_nhan,
+.nguon,
+.lien_he {
+    width: 30%;
+}
+.lien_he {
+    margin-left: auto;
+}
+.lien_he a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 700;
+    display: block;
+}
+.facebook i {
+    color: rgb(10, 83, 240);
+    margin: 0 5px;
+    font-size: 2rem;
+}
+.gmail i {
+    margin: 0 5px;
+    font-size: 2rem;
+}
+.ho_ten  {
+    font-style: italic;
+}
+.school {
+    font-size: 1.8rem;
+    margin: 5px 0;
+    color: rgb(10, 83, 240);
+    font-weight: 900;
+}
+.cam_hung {
+    color: #0f990a;
+}

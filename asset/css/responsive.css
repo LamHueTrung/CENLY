@@ -1,0 +1,199 @@
+@media (max-width: 739px) {
+    html {
+        width: 740px;
+    }
+    .header {
+        position: relative;
+        margin: 0;
+        width: 100%;
+        top: 0;
+        display: block;
+    }
+    .nav {
+        --wrapper-height: 85px;
+    }
+    .hide-for-medium,
+    .video_mobile {
+        width: 100% !important;
+        display: flex;
+        margin: 0 !important;
+    }
+    .banner-inner {
+        margin: 30% 0px;
+    }
+    .nav-logo {
+        padding: 13px;
+        width: 25%;
+        margin: 0;
+    }
+    .ngan_cach {
+        display: none;
+    }
+    .ten_khoa_hoc {
+        width: 162px;
+        margin-left: 15px;
+        font-weight: 600;
+    }
+    .nav-list {
+        margin-right: 12px;
+        display: none;
+    }
+    .header_list {
+        display: block;
+        list-style: none;
+        height: 50px;
+        width: 50px;
+        background: none;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+    .header_list {
+        border: 1px solid #266cec;
+        border-radius: 4px;
+        margin: 0;
+        padding-left: 0px;
+    }
+    .header- {
+        display: block;
+    }
+    .header_list-mobile {
+        display: none;
+        padding-left: 0;
+        z-index: 1;
+        list-style: none;
+    }
+    .content  {
+        display: block;
+    }
+    .nguon,
+    .thong_tin_ca_nhan,
+    .lien_he {
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin: 5% 0;
+    }
+    .tai_lieu_tham_khao {
+        display: block;
+    }
+    .note_mobile {
+        color: red;
+        font-style: italic;
+    }
+    .tab_huong_dan  {
+        height: 107%;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .bai_tap span {
+        margin-bottom: 50px !important;
+    }
+    footer {
+        height: 30%;
+        display: block;
+        text-align: center;
+    }
+    .dat_hang_mobile {
+        display: block;
+        float: right;
+        list-style: none;
+        text-decoration: none;
+        font-size: 2.8rem;
+        margin: 11% 20px 20px 20px;
+        padding: 15px;
+        font-weight: 600;
+        color: var(--white-color);
+        background: red;
+        border-radius: 25px;
+    }
+    .tab_uu_dai_mobile,
+    .tab_lieu_trinh_mobile,
+    .tab_dat_hang_mobile {
+        width: 80%;
+        margin: 26% 10%;
+    }
+    .tab_lieu_trinh_mobile {
+        height: 40%;
+    }
+    .tab_uu_dai_mobile {
+        height: 58%;
+    }
+    .noi_dung_huong_dan {
+        margin-left: 5px;
+    }
+    .cu_phap {
+        line-height: 1.8rem;
+        margin: 20px;
+    }
+    .list_huong_dan img {
+        width: 56%;
+    }
+    .tab_mobile {
+        display: block;
+    }
+    
+    .list_khoa_hoc {
+        width: 100%;
+        position: fixed;
+        top: 85px;
+        z-index: 2;
+        height: 60%;
+        background: var(--white-color);
+        animation: fadeIn 2s;
+    }
+    .btn_hien_tab {
+        position: fixed;
+        top: 50px;
+        z-index: 2;
+    }
+   
+    .Playlist_header {
+        display: block;
+        height: 66px;
+        background-color: #0f990ade;
+    }
+    .btn_hien_ra,
+    .btn_an_tab {
+        float: right;
+        background-color: #0f990a00;
+        color: var(--white-color);
+    }
+    .group_bai_hoc {
+        height: 85%;
+        background-color: #1ccb15ba;
+    }
+    .group_bai_hoc ul {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-item {
+        display: block;
+        width: 100%;
+        margin: 20px 0px;
+        font-size: 2.8rem;
+        padding-left: 30px;
+        font-weight: 600;
+        margin-top: 35px;
+    }
+    .nav-item a {
+        display: block;
+        width: 100%;
+        font-size: 2.8rem;
+        font-weight: 600;
+    }
+    .gach_duoi {
+        height: 25%;
+        border-bottom: 1px solid #686f7a;
+    }
+    .open_btn_hien {
+        display: block;
+        height: 66px;
+        background-color: #0f990ade;
+        margin-top: 11%;
+    }
+    .luu_y {
+        margin: 0 15px;
+    }
+}
