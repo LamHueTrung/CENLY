@@ -461,3 +461,14 @@ footer {
 .cam_hung {
     color: #0f990a;
 }
+.fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0!important;
+}
+.banner-layers>* {
+    position: absolute!important;
+}
