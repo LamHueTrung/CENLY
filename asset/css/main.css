@@ -29,6 +29,7 @@ header {
     display: flex;
     cursor: pointer;
     margin-left: 35px;
+    object-fit: contain;
 }
 .nav-logo img {
     width: 100%;
